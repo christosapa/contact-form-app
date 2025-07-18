@@ -1,0 +1,46 @@
+.footer {
+  background-color: #001f3f;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-logo h1 {
+  font-size: 2rem;
+  color: #67b2d8;
+}
+
+.footer-logo p {
+  margin: 0.5rem 0;
+}
+
+.footer-services,
+.footer-areas {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.footer-services h2,
+.footer-areas h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-services ul,
+.footer-areas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-services li,
+.footer-areas li {
+  margin-bottom: 0.5rem;
+}

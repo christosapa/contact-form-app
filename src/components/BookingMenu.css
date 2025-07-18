@@ -1,0 +1,129 @@
+.booking-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 350px;
+  height: 100%;
+  background-color: #f0f4f8;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px 0 0 10px;
+}
+
+.booking-menu.open {
+  right: 0;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.menu-header h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form input::placeholder {
+  color: #888;
+}
+
+.booking-form button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #003d82;
+}
+
+.menu-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.menu-footer p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.phone-link {
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+select[name="service"] {
+  color: #8d9194; /* Default placeholder color */
+  width: 100%; /* Match the length of other fields */
+  padding: 0.375rem 0.75rem; /* Match padding of other fields */
+  font-size: 1rem; /* Match font size of other fields */
+  line-height: 1.5; /* Match line height of other fields */
+  border: 1px solid #ced4da; /* Match border style of other fields */
+  border-radius: 0.25rem; /* Match border radius of other fields */
+  background-color: #fff; /* Match background color of other fields */
+  appearance: none; /* Remove default dropdown arrow styling */
+}
+
+select[name="service"]:focus {
+  border-color: #80bdff; /* Match focus border color of other fields */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Match focus shadow of other fields */
+}
+
+select[name="service"]:not(:placeholder-shown) {
+  color: #000; /* Black text for selected service */
+}
+
+select[name="service"] option[value=""] {
+  color: #6c757d; /* Ensure placeholder text color matches */
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
