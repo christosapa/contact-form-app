@@ -26,7 +26,7 @@ body {
   background-color: #001f3f;
   color: white;
   padding: 0.75rem 0;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
 }
 
 .contact-info {
@@ -77,13 +77,15 @@ body {
 }
 
 .header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
 }
 
 .header p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
   opacity: 0.9;
 }
 
@@ -112,13 +114,13 @@ nav .container {
 .nav-links li a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .nav-links li a:hover {
-  color: #00ff9d;
+  color: #043165;
 }
 
 .nav-buttons {
