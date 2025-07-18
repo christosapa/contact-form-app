@@ -97,21 +97,29 @@
 }
 
 select[name="service"] {
-  color: #8d9194; /* Default placeholder color */
-  width: 100%; /* Match the length of other fields */
-  padding: 0.375rem 0.75rem; /* Match padding of other fields */
-  font-size: 1rem; /* Match font size of other fields */
-  line-height: 1.5; /* Match line height of other fields */
-  border: 1px solid #ced4da; /* Match border style of other fields */
-  border-radius: 0.25rem; /* Match border radius of other fields */
-  background-color: #fff; /* Match background color of other fields */
-  appearance: none; /* Remove default dropdown arrow styling */
+  color: #333;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%230056b3' viewBox='0 0 16 16'%3E%3Cpath d='M8 10.5l4.5-4.5H3.5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 select[name="service"]:focus {
-  border-color: #80bdff; /* Match focus border color of other fields */
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Match focus shadow of other fields */
+  border-color: #003d82;
+  box-shadow: 0 0 0 0.2rem rgba(0, 61, 130, 0.25);
+}
+
+select[name="service"]:hover {
+  border-color: #003d82;
 }
 
 select[name="service"]:not(:placeholder-shown) {
