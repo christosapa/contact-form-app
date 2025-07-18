@@ -16,16 +16,17 @@ function App() {
         <div className="container">
           <div className="contact-info">
             <div className="location">
-              <i className="location-icon">📍</i>
-              Get Same Day Appointment in your Area
+              <i className="location-icon fas fa-map-marker-alt"></i>
+              Get experienced technicians in your area
             </div>
             <div className="contact-details">
               <a href="tel:0431234567" className="phone">
-                <i className="phone-icon">📞</i>
+                <i className="phone-icon fas fa-phone-alt"></i>
                 0431234567
               </a>
+              <div className="divider"></div>
               <a href="mailto:enquiries@servicemelbourne.com.au" className="email">
-                <i className="email-icon">✉️</i>
+                <i className="email-icon fas fa-envelope"></i>
                 enquiries@servicemelbourne.com.au
               </a>
             </div>
@@ -49,10 +50,10 @@ function App() {
       <div className="hero-section">
         <div className="container">
           <h1 className="hero-title">Service Now Melbourne, VIC-3000</h1>
-          <p className="hero-subtitle">Experts in Pest Control, Steam Cleaning and Carpet repair</p>
+          <p className="hero-subtitle">Experts in Pest Control, Steam Cleaning and Carpet Repair</p>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={scrollToMainForm}>Enquire Now</button>
-            <button className="btn btn-secondary">Call Us: 043 123 4567</button>
+            <button className="btn btn-secondary" onClick={() => window.location.href='tel:0431234567'}>Call Us: 043 123 4567</button>
           </div>
         </div>
       </div>
