@@ -150,6 +150,8 @@ const ContactForm = () => {
                 <option value="rodent">Rodent Control</option>
                 <option value="cockroach">Cockroach Control</option>
                 <option value="bed-bug">Bed Bug Treatment</option>
+                <option value="steam-cleaning">Steam Cleaning</option>
+                <option value="carpet-repair">Carpet Repair</option>
               </select>
             </div>
 
